@@ -1,15 +1,19 @@
 module.exports = {
 
-	entry: './src/index.js',
-	output: {
-		path: './dist',
-		filename: 'index.js'
-	},
+    entry: './src/index.jsx',
+    output: {
+        path: './dist',
+        filename: 'index.js'
+    },
 
-	module: {
-		loaders: [
-			{ test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ }
-		]
-	}
+    module: {
+        loaders: [
+            { test: /\.(js|jsx)$/, loader: 'babel-loader', exclude: /node_modules/ }
+        ]
+    },
+
+    resolve: {
+      extensions: ['', '.js', '.jsx']
+    }
 
 }

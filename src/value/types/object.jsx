@@ -9,7 +9,7 @@ export default function ObjectValue ({ value, theme, referenceTracker, path }) {
     if (path.length > 1) return null;
 
     const objectName = value.constructor ? value.constructor.name : Object.name;
-	const style = StyleSheet.create(theme.object);
+    const style = StyleSheet.create(theme.object);
 
     return <div className={ css(style.objectContainer) }>
 
@@ -22,8 +22,8 @@ export default function ObjectValue ({ value, theme, referenceTracker, path }) {
                     <div className={ css(style.objectKey) }>{ key }</div>
 
                     <div className={ css(style.objectValue) }>
-						<Value value={ value[key] } theme={ theme } referenceTracker={ referenceTracker } path={ path.push(key) } />
-					</div>
+                        <Value value={ value[key] } theme={ theme } referenceTracker={ referenceTracker } path={ path.push(key) } />
+                    </div>
 
                 </div>
             ) }

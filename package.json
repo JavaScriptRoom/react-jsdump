@@ -1,31 +1,31 @@
 {
-  "name": "react-jsdump",
-  "version": "1.0.0",
-  "description": "CFDump-like output for JS objects",
-  "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "contributors": [
-	  {
-		  "name": "Nick Dugger",
-		  "email": "nick.dugger1@gmail.com",
-	  }
-  ],
-  "license": "MIT",
-  "dependencies": {
-    "aphrodite": "^0.5.0",
-    "immutable": "^3.8.1",
-    "js-beautify": "^1.6.3",
-    "react": "^15.3.0"
-  },
-  "devDependencies": {
-    "babel-core": "^6.11.4",
-    "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-react": "^6.11.1",
-    "babel-preset-stage-0": "^6.5.0",
-    "react-dom": "^15.3.0",
-    "webpack": "^1.13.1"
-  }
+    "name": "react-jsdump",
+    "version": "0.0.1",
+    "description": "CFDump-like output for JS objects",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "contributors": [{
+        "name": "Nick Dugger",
+        "email": "nick.dugger1@gmail.com"
+    }],
+    "license": "MIT",
+    "peerDependencies": {
+        "react": "^15.3.0"
+    },
+    "dependencies": {
+        "aphrodite": "^0.5.0",
+        "immutable": "^3.8.1",
+        "js-beautify": "^1.6.3"
+    },
+    "devDependencies": {
+        "babel-core": "^6.11.4",
+        "babel-loader": "^6.2.4",
+        "babel-preset-es2015": "^6.9.0",
+        "babel-preset-react": "^6.11.1",
+        "babel-preset-stage-0": "^6.5.0",
+        "react-dom": "^15.3.0",
+        "webpack": "^1.13.1"
+    }
 }

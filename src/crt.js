@@ -2,7 +2,7 @@ import Immutable from 'immutable';
 
 export default class CircularReferenceTracker {
 
-	constructor () {
+    constructor () {
         // should contain { value: Any, path: Immutable.List }
         this.references = Immutable.Map();
     }
